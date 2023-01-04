@@ -1,0 +1,38 @@
+.widgets {
+    flex: 0.25;
+    margin-top: 1.5rem;
+  }
+  
+  .widgets__input {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .widgets__input > input {
+    border: 1px solid var(--green);
+    background-color: var(--navy);
+    padding: .5rem .8rem;
+    border-radius: 20px;
+  }
+  
+  
+  .widgets__widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: var(--navy);
+    color: var(--light-slate);
+  }
+  
+  .widgets__widgetContainer > h2 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .widget-external{
+    margin: 30px auto;
+  }

@@ -1,0 +1,40 @@
+/* MAIN STUFF */
+
+*,
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--Navy);
+  color: var(--light-slate);
+}
+
+span{
+  font-size: 900;
+  color: var(--green);
+}
+
+
+
+:root{
+  --primary-color: black;
+  --secondary-color: white;
+  --Navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --Slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  --green-dark: #51cfb2;
+  --transparent: #64ffdb09;
+}
+
+.app{
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 1rem;
+}

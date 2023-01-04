@@ -1,0 +1,30 @@
+/* ABOUT */
+
+.about{
+    font-size: 1.9rem;
+    padding: 6rem;
+    color: var(--light-slate);
+    padding-left: 2rem;
+    letter-spacing: .08rem;
+  }
+  
+  .about-content{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 75%;
+    color: var(--light-slate);
+  }
+  
+  .about-text{
+    width: 50%;
+    padding: 3rem;
+    font-size: 1.8rem;
+  }
+  
+  .about-content img{
+    width: 50%;
+    opacity: 0.75;
+    border-radius: 10px;
+  }
+  

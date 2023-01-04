@@ -1,0 +1,48 @@
+.sidebar{
+    color: var(--light-slate);
+    border-right: .5px solid var(--light-slate);
+    flex: .25;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    /* min-width: 250px; */
+}
+
+.sidebarMainIcon{
+    color: var(--green);
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 1.5rem;
+    padding: 1rem;
+    
+}
+
+.sidebarOptions h2{
+    font-size: 1.2rem;
+}
+
+.sidebarOptions:hover{
+    background-color: var(--lightest-navy);
+    color: var(--green);
+    border-radius: 30px;
+    transition: color 100ms ease-out;
+}
+
+.postBtn{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--lightest-navy);
+    background-color: var(--green);
+    padding: 0.7rem 2rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,52 @@
+/* NAVBAR LEFT SIDE */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem 1rem 2rem;
+    border-bottom: 2.5px solid var(--transparent);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social-media-icons{
+    color: var(--light-slate);
+    font-size: 1.9rem;
+    text-decoration: none;
+    
+  }
+  
+  .navbar-logo h2{
+    font-size: 1.5rem;
+    letter-spacing: .10rem;
+  }
+  
+  /* NAVBAR RIGHT SIDE */
+  
+  .navbar-options{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-right: 1.5rem;
+  }
+  
+  
+  
+  .navbar--signup,
+  .navbar--login{
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    padding: .50rem .75rem .50rem .75rem;
+    color: var(--green);
+    text-decoration: none;
+    display: flex;
+    gap: .5rem;
+  }
