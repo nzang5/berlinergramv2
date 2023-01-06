@@ -26,7 +26,7 @@ function Navbar() {
                  SIGN UP
             </a>
 
-            <a className='navbar--login' href='./login'>
+            <a className='navbar--login' href='/login'>
                 <FontAwesomeIcon icon={ faRightToBracket } />
                 LOGIN
             </a>
